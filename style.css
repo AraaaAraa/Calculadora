@@ -1,0 +1,80 @@
+:root {
+    --gris: #41424D;
+    --blanco: #fff;
+    --azulclaro: #7072AE;
+    --fondo: #DDD5EC;
+}
+
+
+html {
+    font-size:62.5%;/*poner esto en todos los trabajos. 1rem=10px*/ 
+}
+
+body{
+    background-color: var(--fondo);
+}
+input{
+    border: none;
+    color: var(--azulclaro);
+    background-color: var(--blanco);
+}
+
+
+
+.contenedor_calculadora{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 3rem;
+    width: 100%;
+    max-height: 50rem;
+    margin-top: 12rem;
+}
+
+.color_calculadora{
+    background-color: var(--gris);
+    margin: 2rem;
+    border-radius: 2rem;
+    padding: 2rem;
+}
+
+.primeralinea{
+    margin-top: 1rem;
+    display: flex;
+    gap: 4.3rem;
+    
+}
+
+.linea{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+.lineacuarta{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+.quintalinea{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+    gap: 7rem;
+}
+
+.boton:hover{
+    cursor: pointer;
+}
+
+.boton{
+    padding: 0 3rem;
+    border-radius: 2rem;
+}
+
+.resultado{
+    padding: 1rem;
+}
